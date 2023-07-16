@@ -182,6 +182,6 @@ app.use((err, req, res, next) => {
     }
 });
 
-app.listen(1337, () => {
-    console.log(`🎉server is running 1337`);
+app.listen(80, () => {
+    console.log(`🎉server is running 80`);
 });
