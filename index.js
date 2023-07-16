@@ -1,6 +1,6 @@
 import express from 'express';
-import { config } from 'dotenv';
-config();
+//import { config } from 'dotenv';
+//config();
 import { PrismaClient } from '@prisma/client';
 import bodyParser from 'body-parser';
 import cors from 'cors';
@@ -182,6 +182,6 @@ app.use((err, req, res, next) => {
     }
 });
 
-app.listen(process.env.PORT, () => {
-    console.log(`🎉server is running ${process.env.PORT}`);
+app.listen(1337, () => {
+    console.log(`🎉server is running 1337`);
 });
